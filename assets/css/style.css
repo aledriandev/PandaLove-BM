@@ -14,20 +14,20 @@ font-family: 'Raleway', sans-serif;
     box-sizing: border-box;
     font-family: "Raleway",sans-serif;
     font-size: 16px;
+	color: white;
 }
 
 /* Seccion Introductoria */
 #intro{
-	background-color: #F78E69;
     background-size: cover;
     background-position: center;
-    padding: 30px 0;
+    background-color: #F78E69;
+    padding: 20px 0;
     text-align: center;  
 }
 #title{
 	text-align: right;
 	padding: 0 10px 10px 0px;
-	color: white;
 }
 #title h1{
 	padding: 10px 20px;
@@ -36,6 +36,30 @@ font-family: 'Raleway', sans-serif;
 #title p{
 	padding-right: 20px;
 	padding-bottom: 20px;
+}
+#image-panda {
+	background-image: url("../img/uno.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 200px 0;
+	filter: grayscale(100%);
+}
+
+/*Seccion about e imagenes de js*/
+#about{
+	background-color: #ABE188;
+	padding: 50px 300px;
+}
+/*Seccion about*/
+.contenido{
+	background-color: #F78E69;
+	padding: 20px;
+	text-align: center;
+}
+
+.contenido h1{
+	font-size: 150%;
+	padding: 10px;
 }
 
 /*Todas las imagenes menos la clase picture-panda*/
@@ -46,12 +70,36 @@ img:not(.picture-panda){
     background-position: center;
     width: 100%;
 }
-#image-panda {
-	background-image: url("../img/uno.jpg");
-	padding: -100px 0;
-	
+
+/*La primera y segunda imagen*/
+.image{
+	background-color: #F78E69;
+    padding: 20px 0;
 }
 
-/**/
+/*Imagenes traidas de js*/
+#imagene-pandas{
+	background-color: #ABE188;
+	padding: 50px 0px;
+	text-align: center;
+}
+
+#imagene-pandas h1{
+	font-size: 250%
+}
+
+.picture-panda{
+	margin: 25px;
+	border: 10px solid white;
+}
+
+/*footer*/
+footer{
+	background-color: #F78E69;
+	text-align: right;
+	font-weight: bold;
+	padding: 0 10px 10px 0;
+}
+
 /**/
 /**/
