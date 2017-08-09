@@ -6,3 +6,52 @@ font-family: 'Raleway', sans-serif;
 */
 
 /* Escribe tu código acá debajo */
+/* Propiedades Globales */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway",sans-serif;
+    font-size: 16px;
+}
+
+/* Seccion Introductoria */
+#intro{
+	background-color: #F78E69;
+    background-size: cover;
+    background-position: center;
+    padding: 30px 0;
+    text-align: center;  
+}
+#title{
+	text-align: right;
+	padding: 0 10px 10px 0px;
+	color: white;
+}
+#title h1{
+	padding: 10px 20px;
+	font-size: 300%;
+}
+#title p{
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+/*Todas las imagenes menos la clase picture-panda*/
+img:not(.picture-panda){
+	filter: grayscale(100%);
+	text-align: center;
+	background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+#image-panda {
+	background-image: url("../img/uno.jpg");
+	padding: -100px 0;
+	
+}
+
+/**/
+/**/
+/**/
